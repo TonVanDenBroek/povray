@@ -146,6 +146,7 @@
       </DataExecutionPrevention>
       <ImportLibrary>$(OutDir)lib/cmedit32d.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>povcmax32.dll</DelayLoadDLLs>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -237,6 +238,7 @@
       </DataExecutionPrevention>
       <ImportLibrary>$(OutDir)lib/cmedit32.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>povcmax32.dll</DelayLoadDLLs>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -281,6 +283,7 @@
       </DataExecutionPrevention>
       <ImportLibrary>$(OutDir)lib/cmedit64.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
+      <DelayLoadDLLs>povcmax64.dll</DelayLoadDLLs>
     </Link>
     <ProjectReference />
   </ItemDefinitionGroup>
